@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="CENTER" stylesheets="@style.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="121.20000610351562" prefWidth="42.000024414062494" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="173.1999755859375" prefWidth="98.00001220703123" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="100.0" prefWidth="67.1999755859375" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="190.0" prefWidth="80.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="50.0" minWidth="0.0" prefWidth="11.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="190.0" prefWidth="80.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="50.0" minWidth="0.0" prefWidth="11.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="190.0" prefWidth="80.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="100.0" prefWidth="72.80000000000001" />
+      <ColumnConstraints hgrow="ALWAYS" maxWidth="199.99997558593748" prefWidth="102.39999999999998" />
+      <ColumnConstraints hgrow="ALWAYS" maxWidth="230.0" prefWidth="214.39999999999998" />
+      <ColumnConstraints hgrow="ALWAYS" maxWidth="199.99997558593748" prefWidth="76.199951171875" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="41.39999084472656" prefHeight="30.999996948242185" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="144.19998779296876" minHeight="10.0" prefHeight="69.4000030517578" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="144.19998779296876" minHeight="10.0" prefHeight="42.3999755859375" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="80.0" minHeight="50.0" prefHeight="70.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="82.4" minHeight="0.0" prefHeight="13.600024414062489" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="80.0" minHeight="50.0" prefHeight="70.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="80.0" minHeight="11.400006103515636" prefHeight="15.20001220703125" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="80.0" minHeight="50.0" prefHeight="70.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="80.0" minHeight="10.0" prefHeight="34.39998779296877" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="50.4000244140625" minHeight="10.0" prefHeight="40.00003662109373" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="45.59995117187498" minHeight="10.0" prefHeight="40.79996337890623" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <ImageView id="logo" fitHeight="141.0" fitWidth="158.0" focusTraversable="true" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="1">
+         <image>
+            <Image url="@imgs/uu.png" />
+         </image>
+      </ImageView>
+      <ButtonBar prefHeight="40.0" prefWidth="22.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="5.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" opacity="0.7" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+      <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="5.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" opacity="0.7" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+      <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="5.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" opacity="0.7" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+      <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="5.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" opacity="0.7" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+      <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="5.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" opacity="0.7" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+      <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="5.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" opacity="0.7" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+      <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="5.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" opacity="0.7" GridPane.columnIndex="7" GridPane.rowIndex="3">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="5.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" opacity="0.7" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+      <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="5.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" opacity="0.7" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+      <ImageView fitHeight="87.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="4">
+         <image>
+            <Image url="@imgs/Boy-Avatar-PNG-Download-Image.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="114.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="4">
+         <image>
+            <Image url="@imgs/Girl-Avatar-Transparent-Images.png" />
+         </image>
+      </ImageView>
+      <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="5.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: #7BE1D7; -fx-cursor: HAND; -fx-font-weight: bold;" text="Reset" GridPane.columnIndex="7" GridPane.rowIndex="9">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="5.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: #F86156; -fx-font-weight: bold; -fx-cursor: HAND;" text="Exit" GridPane.columnIndex="3" GridPane.rowIndex="9">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <HBox prefHeight="54.0" prefWidth="70.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+         <children>
+            <ImageView fitHeight="39.0" fitWidth="40.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgs/pngwing.com.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="15.0" />
+               </HBox.margin>
+            </ImageView>
+         </children>
+      </HBox>
+      <TextArea editable="false" maxWidth="1.7976931348623157E308" prefHeight="0.0" prefWidth="214.0" scaleZ="0.0" style="-fx-background-color: #fabf6a; -fx-border-color: #fabf6a;" GridPane.columnIndex="10" GridPane.rowIndex="2" GridPane.rowSpan="5">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis></TextArea>
+      <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="10" GridPane.rowIndex="7">
+         <children>
+            <TextField prefHeight="38.0" prefWidth="162.0" style="-fx-background-color: white; -fx-border-color: #fabf6a; -fx-border-width: 5; -fx-cursor: TEXT;" />
+            <Button contentDisplay="CENTER" graphicTextGap="5.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="74.0" style="-fx-background-radius: 0; -fx-cursor: HAND; -fx-font-size: 16; -fx-font-weight: bold; -fx-background-color: #fabf6a;" text="Send">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox prefHeight="71.0" prefWidth="180.0" style="-fx-alignment: center;" GridPane.columnIndex="10" GridPane.rowIndex="8">
+         <children>
+            <ImageView fitHeight="76.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: HAND;">
+               <image>
+                  <Image url="@imgs/Chat-Icon-PNG-Pic.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="9" GridPane.rowIndex="6">
+         <children>
+            <ImageView fitHeight="36.0" fitWidth="40.0">
+               <image>
+                  <Image url="@imgs/pning.com.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="15.0" />
+               </HBox.margin>
+            </ImageView>
+         </children>
+      </HBox>
+   </children>
+</GridPane>

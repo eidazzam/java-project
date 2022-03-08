@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="549.0" prefWidth="726.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <ImageView fitHeight="229.0" fitWidth="255.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@imgs/uu.png" />
+         </image>
+      </ImageView>
+   </top>
+   <bottom>
+      <ImageView fitHeight="192.0" fitWidth="199.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@imgs/output-onlinegiftools.gif" />
+         </image>
+      </ImageView>
+   </bottom>
+   <center>
+      <ImageView fitHeight="195.0" fitWidth="458.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@imgs/kindpng_691940.png" />
+         </image>
+      </ImageView>
+   </center>
+</BorderPane>

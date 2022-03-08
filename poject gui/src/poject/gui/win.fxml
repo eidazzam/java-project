@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="549.0" prefWidth="726.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <bottom>
+      <HBox prefHeight="256.0" prefWidth="726.0" style="-fx-alignment: center;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="286.0" fitWidth="682.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgs/win.png" />
+               </image></ImageView>
+         </children>
+      </HBox>
+   </bottom>
+   <center>
+      <ImageView fitHeight="251.0" fitWidth="756.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@imgs/Win_Top_Image.png" />
+         </image>
+      </ImageView>
+   </center>
+</BorderPane>
